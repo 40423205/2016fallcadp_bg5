@@ -2,3 +2,19 @@
 	path = 40423227
 	url = https://github.com/40423227/2016fallcadp_hw.git
 	branch = gh-pages
+[submodule "40423235"]
+	path = 40423235
+	url = https://github.com/40423235/2016fallcadp_hw.git
+	branch = gh-pages
+[submodule "40423236"]
+	path = 40423236
+	url = https://github.com/40423236/2016fallcadp_hw.git
+	branch = gh-pages
+[submodule "40423237"]
+	path = 40423237
+	url = https://github.com/40423237/2016fallcadp_hw.git
+	branch = gh-pages
+[submodule "40423238"]
+	path = 40423238
+	url = https://github.com/40423238/2016fallcadp_hw.git
+	branch = gh-pages
