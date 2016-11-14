@@ -39,7 +39,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151213230723.1"><vh>Pelican 設定</vh>
+<v t="leo.20151213230723.1" a="E"><vh>Pelican 設定</vh>
 <v t="leo.20151213230957.1"><vh>文章 Date 設定</vh></v>
 <v t="leo.20151213230729.1"><vh>使用 summary plugin</vh></v>
 </v>
@@ -62,6 +62,12 @@
 <v t="amd.20160106094754.1" a="E"><vh>@path ./../content/pages</vh>
 <v t="amd.20160106094829.1" a="E"><vh>scrum-1 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
+</v>
+</v>
+<v t="leo.20161115033034.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20161115033034.3"><vh>Recovered node "首頁" from @clean index.html</vh>
+<v t="leo.20161115033034.4"><vh>old:首頁</vh></v>
+<v t="leo.20161115033034.5"><vh>new:首頁</vh></v>
 </v>
 </v>
 </vnodes>
@@ -103,7 +109,8 @@ print("hello")
 <t tx="amd.20160922224509.1">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 @others
-&lt;/html&gt;</t>
+&lt;/html&gt;
+</t>
 <t tx="amd.20160922224509.14">&lt;section&gt;
     &lt;h2&gt;Hello There&lt;/h2&gt;
     &lt;p&gt;
@@ -112,7 +119,8 @@ print("hello")
 &lt;/section&gt;
 
 
-					</t>
+					
+</t>
 <t tx="amd.20160922224509.17">&lt;!-- Example of nested vertical slides --&gt;
 &lt;section&gt;
 
@@ -144,7 +152,8 @@ print("hello")
     
 &lt;/section&gt;
 
-						</t>
+						
+</t>
 <t tx="amd.20160922224509.2">&lt;head&gt;
 @others
 &lt;/head&gt;
@@ -158,7 +167,8 @@ print("hello")
 &lt;/section&gt;
 
 
-					</t>
+					
+</t>
 <t tx="amd.20160922224509.3">&lt;meta charset="utf-8"&gt;
 &lt;title&gt;reveal.js – The HTML Presentation Framework&lt;/title&gt;
 
@@ -181,7 +191,8 @@ print("hello")
         &lt;/script&gt;
 &lt;/section&gt;
 
-						</t>
+						
+</t>
 <t tx="amd.20160922224509.4">&lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
 &lt;meta name="author" content="Hakim El Hattab"&gt;
 
@@ -208,7 +219,8 @@ print("hello")
 &lt;!--[if lt IE 9]&gt;
 &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
 &lt;![endif]--&gt;
-	</t>
+	
+</t>
 <t tx="amd.20160922224509.5">&lt;body&gt;
 @others
 &lt;/body&gt;
@@ -248,7 +260,7 @@ print("hello")
 
 </t>
 <t tx="amd.20160922224509.8">&lt;section&gt;
-    &lt;h1&gt;Scrum-1 學員的課程簡報&lt;/h1&gt;
+    &lt;h1&gt;四設計二乙 第五組 課程簡報&lt;/h1&gt;
     &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
     &lt;p&gt;
         &lt;small&gt;
@@ -258,7 +270,8 @@ print("hello")
     &lt;/p&gt;
     &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
 &lt;/section&gt;
-	</t>
+	
+</t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -365,5 +378,47 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
+<t tx="leo.20161115033034.2"></t>
+<t tx="leo.20161115033034.3">(uncached) amd.20160922224509.8
+Diff...
+  &lt;section&gt;
+-     &lt;h1&gt;四設計二乙 第五組 課程簡報&lt;/h1&gt;
++     &lt;h1&gt;40423205 學員的課程簡報&lt;/h1&gt;
+      &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+      &lt;p&gt;
+          &lt;small&gt;
+          Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; /
+          &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
+          &lt;/small&gt;
+      &lt;/p&gt;
+      &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+  &lt;/section&gt;
+- 	
++ 	</t>
+<t tx="leo.20161115033034.4">&lt;section&gt;
+    &lt;h1&gt;Scrum-1 學員的課程簡報&lt;/h1&gt;
+    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+    &lt;p&gt;
+        &lt;small&gt;
+        Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; /
+        &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
+        &lt;/small&gt;
+    &lt;/p&gt;
+    &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+&lt;/section&gt;
+	</t>
+<t tx="leo.20161115033034.5">&lt;section&gt;
+    &lt;h1&gt;四設計二乙 第三組 課程簡報&lt;/h1&gt;
+    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+    &lt;p&gt;
+        &lt;small&gt;
+        Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; /
+        &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
+        &lt;/small&gt;
+    &lt;/p&gt;
+    &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+&lt;/section&gt;
+	
+</t>
 </tnodes>
 </leo_file>
